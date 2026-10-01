@@ -1,70 +1,18 @@
-DHRUV SONI — VIDEO EDITOR PORTFOLIO
-===================================
+# Dhruv Soni — Interactive Video Editor Portfolio
 
-FILES
------
-index.html  = website structure/content
-style.css   = all design, layout and responsive styling
-script.js   = animations + easy video/project list
-assets/     = optional thumbnails/images
+## Upload to GitHub Pages
+1. Keep `index.html`, `style.css`, `script.js`, and `mascot.png` in the repository root.
+2. GitHub → Settings → Pages.
+3. Source: Deploy from a branch.
+4. Branch: `main` and folder `/ (root)`.
+5. Save and wait for the Pages deployment.
 
-RUN LOCALLY
------------
-1. Put all files in one folder.
-2. Double-click index.html to preview in your browser.
-3. For the best result, use a local server or GitHub Pages.
+## Easy future changes
+- Instagram link: edit the Instagram URLs in `index.html`.
+- Hero/about text: edit `index.html`.
+- Services: edit the Services section in `index.html`.
+- Work samples: replace the three placeholder cards in the Work section with video cards/links.
+- Mascot: replace `mascot.png` with another image using the same filename.
 
-GITHUB PAGES (FREE HOSTING)
----------------------------
-1. Create/sign in to GitHub.
-2. Create a new PUBLIC repository, e.g. dhruv-portfolio.
-3. Upload index.html, style.css, script.js and assets folder.
-4. Open repository Settings → Pages.
-5. Under Source choose "Deploy from a branch".
-6. Select main branch and / (root), then Save.
-7. GitHub will give you a live website URL.
-
-ADDING A VIDEO LATER
---------------------
-Open script.js and find:
-const projects = [
-
-Add a project like:
-{
-  title: "Trading Reel",
-  category: "TRADING",
-  description: "Short-form edit",
-  video: "YOUR_GOOGLE_DRIVE_LINK",
-  thumbnail: "YOUR_THUMBNAIL_URL"
-},
-
-You can add as many projects as you want. No other file needs to change.
-
-GOOGLE DRIVE NOTE
------------------
-For portfolio playback/preview, Google Drive sharing permissions must allow people with the link to view the file. A Drive file link may open Drive rather than play inline; if you later want an embedded player, we can modify the project system for that.
-
-CONTACT
--------
-Instagram: https://instagram.com/dhruvsoniiii
-
-CURRENT BRAND
--------------
-Name: Dhruv Soni
-Role: Video Editor
-Theme: Black + Purple cinematic
-Services: Short Form/Reels, Talking Head Editing, Trading & Finance, YouTube Editing, Motion Graphics, Captions & Subtitles
-Social proof: intentionally omitted for now
-
-FUTURE UPDATES
---------------
-You can ask ChatGPT in this conversation to update this same portfolio, e.g.:
-- Add my new video
-- Remove project 2
-- Change my Instagram
-- Add a WhatsApp button
-- Change the purple to red
-- Add a testimonials section
-- Add my photo
-- Add a custom domain
-- Make the homepage more animated
+## Interactive mascot
+Tap/click the mascot to cycle through 5 visual mood states. The current version uses CSS effects on one mascot image; if separate mascot expression images are later provided, the same tap system can be upgraded to swap real expressions.
